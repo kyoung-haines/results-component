@@ -4,9 +4,31 @@ body {
     padding: 0;
 }
 
-@media (width >= 320px) and (width <= 766px) {
-    .results {
-        background: linear-gradient(top)
+#circle {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+#circle p {
+    padding: 10px;
+    margin: auto;
+}
+
+#circle p>span {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+@media (width <= 766px) {
+    #results {
+        background: linear-gradient(180deg, hsla(241, 81%, 54%, 0.9), hsla(252, 100%, 67%, 1) 100%)
     }
     .dark-grey {
         color: hsl(224, 30%, 27%);
