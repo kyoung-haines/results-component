@@ -1,0 +1,21 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (width >= 320px) and (width <= 766px) {
+    .results {
+        background: linear-gradient(top)
+    }
+    .dark-grey {
+        color: hsl(224, 30%, 27%);
+    }
+    body {
+        
+    }
+}
+
+/* DEFAULT PROJECT STYLING - LEAVE INCLUDED*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
