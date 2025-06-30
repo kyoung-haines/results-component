@@ -38,7 +38,17 @@ fetch('./data.json')
             categoryDiv.setAttribute('id', `${json[i].category}-div`);
             categoryDiv.setAttribute('class', 'summary-category');
 
-            categoryDiv.innerHTML = `<figure><img src=./assets/images/${picName.toLowerCase()}></figure><figcaption>${json[i].category} </figcaption><span> ${json[i].score} / 100</span>`;
+            categoryDiv.innerHTML = `
+                <figure>
+                    <img src=./assets/images/${picName.toLowerCase()}>
+                </figure>
+                <figcaption>
+                    ${json[i].category}
+                </figcaption>
+                <p>
+                    ${json[i].score} / 100
+                </p>
+            `;
 
             parentElement.append(categoryDiv);
             console.log(json[i].category);
