@@ -15,12 +15,12 @@ body {
     border-radius: 50%;
 }
 
-#circle p {
+/* #circle p {
     padding: 10px;
     margin: auto;
-}
+} */
 
-#circle p>span {
+#circle p > span {
     display: block;
     padding: 0;
     margin: 0;
