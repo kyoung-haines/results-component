@@ -36,6 +36,12 @@ body {
     body {
         
     }
+
+    .summary-category {
+        display: flex;
+        align-items: center;
+        
+    }
 }
 
 /* DEFAULT PROJECT STYLING - LEAVE INCLUDED*/
